@@ -18,10 +18,8 @@ url = "https://api-football-v1.p.rapidapi.com/v2/countries"
 
 headers = {
   "x-rapidapi-host": open("../env/api_host.env").read(),
-  "x-rapidapi-key": open("../env/api_football_key.env").read()
+  "x-rapidapi-key": open("../env/api_key.env").read()
 }
-# print(headers)
-# sys.exit()
 # sys.exit()
 
 def load_json(json_path):
@@ -34,8 +32,19 @@ def save_json(json_path):
     json_data = json.load(json_file)
   return json_data
 
+class Covid19:
+  def __init__(self, nation="JP"):
+    self.nation = nation
+  
+  def get_info(self,):
+    nation
+
+
 if __name__ == "__main__":
   print("starts...")
-  
+
+
+
+  sys.exit()  
 
 
