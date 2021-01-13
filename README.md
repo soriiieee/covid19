@@ -1,5 +1,21 @@
 # covi19
 
+
+# DEMO
+ 
+# Feature
+毎日、更新予定*自動化は未定（）
+推移や、空間分布等を表示する
+ 
+# Requirement
+"hoge"を動かすのに必要なライブラリなどを列挙する
+* Python 3.8.5
+* plotly 4.14.2
+* pandas 1.2.0
+* matplotlib 3.3.2
+ 
+# Installation
+
 ## 1 ディレクトリ構成を揃える
 home - py : csvのデータ整形や計算ファイルの格納
      - dat :inputデータ/テーブルファイル等
@@ -13,6 +29,12 @@ home - py : csvのデータ整形や計算ファイルの格納
 ### 2 統計データ
 統計局[https://www.stat.go.jp/data/jinsui/2019np/index.html]
 第２表と第３表
+
+
+# Author
+* yuichi sorimachi
+* jwa
+* E-mail : sorimachi.y.ab@gmail.com
 
 
   
