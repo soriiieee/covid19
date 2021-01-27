@@ -1,6 +1,7 @@
 env/
 dat/amedas/
 dat/population/
+dat/pref/
 
 out/csv
 out/png

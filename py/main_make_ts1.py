@@ -96,7 +96,8 @@ def png1(isMV=0):
     ax[i].set_title(_title[i], pad=-15)
   f.savefig("../out/png/ts1.png", bbox_inches="tight")
   return
-  
+
+
 if __name__ == "__main__":
   """
   厚生労働省
